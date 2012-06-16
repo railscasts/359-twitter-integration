@@ -1,0 +1,28 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#testimonies {
+  clear: right;
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 300px;
+  float: right;
+  min-height: 200px;
+
+  blockquote {
+    margin: 0;
+    clear: right;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    quotes: '\201C' '\201D';
+    &:before { content: open-quote; }
+    &:after { content: close-quote; }
+  }
+
+  .from {
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+}
